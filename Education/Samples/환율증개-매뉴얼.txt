@@ -1,0 +1,11 @@
+https://github.com/anight08/RPA/tree/master/Education/Samples
+(환율중개-매뉴얼.txt Download)
+1.[Open Browser] - 환율중개사이트 "http://www.smbs.biz/index.jsp"
+2. 로그인 ( ID : smbssmbs2 / PW: smbssmbs2 )
+3. [Click] "환율조회"
+4. [Type Into] "날짜선택" (ex. 20190101)
+5. [Click] "조회하기"
+6. [Get Text] 미국(USD) / 일본(JPY) / 유로(EUR)의 환율 추출
+   (****단 추출할 환율은 '세계지도'에서 선택***)
+7. [Write Cell] 추출한 환율을 해당하는 Cell에 입력
+   (2019-01-02 ~ 2019-01-04 까지 작성)
